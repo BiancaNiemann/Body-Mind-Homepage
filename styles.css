@@ -1,0 +1,206 @@
+/*Global Styles*/
+
+* {
+    background-color: #dfe8ec;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 6rem;
+    color: #1a374d;
+}
+
+h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    color: #1a374d
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.75rem;
+    color: #1a374d
+}
+
+li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+span {
+    font-weight: 800;
+}
+
+p .toplink {
+    float: right;
+}
+
+/*Header*/
+
+.logo {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.logosize {
+    height: 10rem;
+    opacity: 40%;
+}
+
+/*Navigation Bar*/
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 2.0rem 1.5rem 1.5rem 1.5rem;
+    margin-top: -0.25rem;
+    flex-wrap: wrap;
+}
+
+.button {
+    color: white;
+    background-color: #406882;
+    text-align: center;
+    border-radius: 4px;
+    padding: 1rem;
+    text-decoration: none;
+    border: 1px solid #1a374d;
+}
+
+@media only screen and (max-width: 860px) {
+    li{
+        margin: 1.5rem;
+    }
+}
+    
+/*Mission Statement*/
+
+.missionimg {
+    display: flex ;
+    height: 30rem;
+    background-image: url(Images/forest-river-mountain.jpg);
+    background-repeat: none;
+    background-position: bottom;
+    background-size: cover;
+    justify-content: center;
+    padding-top: 12%;
+}
+
+.mission {
+    text-align: center;
+    color: #1a374d;
+    height: 8.5rem;
+    border: 1px solid #406882;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0;
+}
+
+.adjust {
+    padding: 0;
+    line-height: 1rem;
+}
+
+/*Health Eating & Activities*/
+
+.healthy_title {
+    width: auto;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: #406882;
+    color: white ;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.healthyimgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    top: 28rem;
+    padding-top: 2rem;
+}
+
+.pic {
+    height: 14rem;
+    width: 14rem;
+    border-bottom: 2px solid #406882;
+    object-fit: cover;
+}
+
+.describe {
+    width: 14rem;
+    text-align: center;
+}
+
+.picborder {
+    border: 2px solid #406882;
+    border-radius: 4px;
+}
+
+/*Meet the Team*/
+
+.meet_contact {
+    width: auto;
+    top: 30rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    background-color: #406882;
+    color: white ;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.teamimgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    top: 28rem;
+    padding-top: 2rem;
+}
+
+.picround {
+    height: 17rem;
+    width: 14rem;
+    border: 4px solid #406882;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.deco {
+    text-decoration: underline;
+}
+
+/*Contact Us*/
+
+.contactus {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2.0rem 1.5rem 1.5rem 1.5rem;
+    color: #1a374d
+}
+
+.test {
+    opacity: 40%;
+}
+
+
+
+
+
+
